@@ -12,6 +12,10 @@
     --very-dark-blue: hsl(240, 100%, 5%);
 }
 
+*::after, *::before {
+    box-sizing: inherit;
+}
+
 body{
     font-family: 'Playfair Display', serif;
     font-size: 15px;
