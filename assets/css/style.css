@@ -12,12 +12,35 @@
     --very-dark-blue: hsl(240, 100%, 5%);
 }
 
-*::after, *::before {
+*, *::after, *::before {
     box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body{
     font-family: 'Playfair Display', serif;
     font-size: 15px;
-    box-sizing: border-box;
+    margin: 1rem;
+    max-width: 1200px;
 }
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* #menu-burger, #logo{
+    height: 100%;
+    width: auto;
+} */
