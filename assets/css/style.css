@@ -40,7 +40,20 @@ a{
     text-decoration: none;
 }
 
-/* #menu-burger, #logo{
+#menu-burger, #logo{
     height: 100%;
     width: auto;
-} */
+}
+
+#menu-close{
+    position: absolute;
+    top: 2.4%;
+    right: 8%;
+    width: 2.75rem;
+}
+
+.menu{
+    background-color: var(--off-white);
+    position: fixed;
+    
+}
