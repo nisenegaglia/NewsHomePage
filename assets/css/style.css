@@ -59,9 +59,19 @@ a {
     width: auto;
 }
 
-.menu {
-    background-color: var(--off-white);
+.menu-hide {
+    display: none;
+    background-color: white;
     position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 65%;
+    padding: 1.25rem;
+    z-index: 1;
+    -webkit-box-shadow: -200px 0px 0px 200px rgba(0,0,0,0.6);
+    -moz-box-shadow: -200px 0px 0px 200px rgba(0,0,0,0.6);
+    box-shadow: -200px 0px 0px 200px rgba(0,0,0,0.6);
 }
 
 .menu-nav {
@@ -70,7 +80,23 @@ a {
     position: absolute;
     top: 30%;
     transform: translateY(-50%);
-    color: var--(very-dark-blue hsl(240, 100%, 5%));
 }
+
+.menu-nav a {
+    padding: 1rem;
+    color: black;
+}
+
+button{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
 
 
