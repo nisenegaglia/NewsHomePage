@@ -32,9 +32,9 @@ body {
 
 header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    margin: 1rem;
+    margin-bottom: 2rem;
 }
 
 p {
@@ -55,6 +55,8 @@ a {
 } 
 
 #logo, #menu-burger {
+    display: flex;
+    justify-content: flex-start;
     height: 100%;
     width: auto;
 }
@@ -94,10 +96,19 @@ button {
     cursor: pointer;
 }
 
+.up, .right, .under {
+    display: grid;
+}
+
+.up .feed-up{
+    font-size: 3rem;
+    font-weight: 800;
+    margin-top: 1rem;
+}
+
 img {
     height: 100%;
     width: 100%;
 }
-
 
 
