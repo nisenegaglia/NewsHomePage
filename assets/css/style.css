@@ -24,13 +24,13 @@ html {
     padding: 0;
     }
 
-body{
+body {
     margin: 1rem;
     padding: 0;
     max-width: 1200px;
 }
 
-header{
+header {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -47,14 +47,14 @@ a {
     text-decoration: none;
 }
 
-#menu-close{
+#menu-close {
     position: absolute;
     top: 2.4%;
     right: 8%;
     width: 2.75rem;
 } 
 
-#logo, #menu-burger{
+#logo, #menu-burger {
     height: 100%;
     width: auto;
 }
@@ -88,13 +88,13 @@ a {
     color: black;
 }
 
-button{
+button {
     background: transparent;
     border: none;
     cursor: pointer;
 }
 
-img{
+img {
     height: 100%;
     width: 100%;
 }
