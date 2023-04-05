@@ -39,12 +39,17 @@ header {
 
 p {
     color: var(--dark-grayish-blue);
-    line-height: 1.5;
+    line-height: 1.5rem;
     font-size: 15px;
 }
 
 a {
     text-decoration: none;
+}
+
+img {
+    height: 100%;
+    width: 100%;
 }
 
 #menu-close {
@@ -96,19 +101,51 @@ button {
     cursor: pointer;
 }
 
-.up, .right, .under {
+.right, .under {
     display: grid;
 }
 
 .up .feed-up{
     font-size: 3rem;
     font-weight: 800;
-    margin-top: 1rem;
+    margin: 1rem auto;
 }
 
-img {
-    height: 100%;
-    width: 100%;
+.text-up{
+    padding:0 0.75rem 1.25rem 0.75rem;
+}
+
+.link-up{
+    background-color: var(--soft-red);
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    color: white;
+    font-weight: 900;
+}
+
+.right{
+    background-color: var(--very-dark-blue);
+    padding: 1rem 1rem 0.5rem;
+    margin-top: 3rem;
+}
+
+.right-news{
+    border-bottom: 1px solid var(--grayish-blue);
+}
+
+.right-news-title{
+    color: #fff;
+}
+
+.right-news p{
+    color: var(--grayish-blue);
+}
+
+.right-tittle{
+    color: var(--soft-orange);
+    font-size: 2rem;
+    margin-bottom: 1rem;
 }
 
 
