@@ -130,6 +130,10 @@ button {
     margin-top: 3rem;
 }
 
+.right-news:last-of-type{
+    border: none;
+}
+
 .right-news{
     border-bottom: 1px solid var(--grayish-blue);
 }
@@ -148,4 +152,28 @@ button {
     margin-bottom: 1rem;
 }
 
+.under{
+    margin-top: 4rem;
+}
 
+.under-content{
+    display: grid;
+    grid-template-columns: 33% 66%;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.under-rate{
+    color: var(--grayish-blue);
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+footer{
+    text-align: center;
+    color: var(--grayish-blue);
+}
+
+footer a{
+    color: var(--grayish-blue);
+}
