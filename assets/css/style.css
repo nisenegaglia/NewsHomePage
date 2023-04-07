@@ -180,7 +180,21 @@ footer a{
 
 @media all and (min-width: 750px){
 
+    main {
+        display: grid;
+        grid-template-areas: 
+        "head head"
+        "main side"
+        "under under"
+        "footer footer"
+        ;
+        grid-template-columns: 66% 33%;
+        gap: 1rem;
+    }
+
     .up img{
+        display: grid;
         content: url(../images/image-web-3-desktop.jpg);
+        grid-area: image;
     }
 }
