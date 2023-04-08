@@ -192,15 +192,32 @@ footer a{
         gap: 1rem;
     }
 
+    .right{
+        margin-top: 0;
+    }
+
     .up img{
         display: grid;
         content: url(../images/image-web-3-desktop.jpg);
         grid-area: image;
         height: fit-content;
-
     }
 
-    .right{
-        margin-top: 0;
+    .up .feed-up{
+        font-size: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .up-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+    }
+
+    .division-up{
+        margin-top: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 3rem;
+        margin-left: 3rem;
     }
 }
