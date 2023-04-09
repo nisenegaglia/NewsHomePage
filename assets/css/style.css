@@ -105,7 +105,7 @@ button {
 }
 
 .up .feed-up{
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 800;
     margin: 1rem auto;
 }
@@ -222,9 +222,8 @@ footer a{
     }
     .under{
         display: flex;
+        gap: 1.5rem;
     }
     
-    .under-content{
-        padding: 2rem;
-    }
+
 }
