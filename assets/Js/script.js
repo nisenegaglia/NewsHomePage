@@ -19,3 +19,18 @@ function reportwIndowSize(){
         navbar.classList.add('hidden')
     }
 }
+
+//Variables
+
+const navbar = document.querySelector(".menu")
+const openMenu = document.getElementById("menu-open")
+const closeMenu = document.getElementById("menu-close")
+
+//Control Nav Bar
+openMenu.addEventListener('click', () =>{
+    navbar.classList.remove("hidden")
+})
+
+closeMenu.addEventListener('click', () =>{
+    navbar.classList.add('hidden')
+})
