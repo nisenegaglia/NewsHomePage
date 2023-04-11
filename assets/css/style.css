@@ -76,9 +76,9 @@ img {
     padding: 1.25rem;
      /* STUDY WEBKIT */
     z-index: 1;
-    -webkit-box-shadow: -200px 0px 0px 200px rgba(0,0,0,0.6);
+    /* -webkit-box-shadow: -200px 0px 0px 200px rgba(0,0,0,0.6);
     -moz-box-shadow: -200px 0px 0px 200px rgba(0,0,0,0.6);
-    box-shadow: -200px 0px 0px 200px rgba(0,0,0,0.6);
+    box-shadow: -200px 0px 0px 200px rgba(0,0,0,0.6); */
 }
 
 .menu-nav {
